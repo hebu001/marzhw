@@ -5,7 +5,7 @@ set -e
 # Сюда впиши реальный URL архива с GitHub
 GITHUB_ZIP_URL="https://import.evovpn.ru/static/download/code.zip"
 CODE_ZIP_PATH="/var/lib/marzban/code.zip"
-CODE_DIR="/var/lib/marzban/code"
+CODE_DIR="/var/lib/marzban/"
 DB_PATH="/var/lib/marzban/db.sqlite3"
 DOCKER_COMPOSE="/opt/marzban/docker-compose.yml"
 
