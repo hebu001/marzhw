@@ -32,6 +32,8 @@ rm -rf "$CODE_DIR"
 mkdir -p "$CODE_DIR"
 unzip -o "$CODE_ZIP_PATH" -d "$CODE_DIR"
 
+marzban down
+
 echo "== 4. Устанавливаем sqlite3 (если нет) =="
 apt-get install -y sqlite3 >/dev/null 2>&1
 
